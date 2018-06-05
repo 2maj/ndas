@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Contacter nous</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+<body>
+<div id="header">
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html" >NDAS Multi-services</a></li>
+            <li>
+                <a href="index.html#whoareus">Qui sommes-nous?</a>
+            </li>
+            <li>
+                <a href="achat.html">Achat</a>
+                <ul>
+                    <li><a href="achat.html#particulier">Particulier</a></li>
+                    <li><a href="achat.html#professionel">Professionnel</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="vente.html">Vente</a>
+            </li>
+            <li>
+                <a href="location.html">Location</a>
+                <ul>
+                    <li><a href="location.html#particulier">Particulier</a></li>
+                    <li><a href="location.html#professionnel">Professionnel</a></li>
+                </ul>
+            </li>
+            <li class="active"><a href="contact.html">Nous contacter</a></li>
+        </ul>
+    </nav>
+
+</div>
+    <!-- Content -->
+<div>
+    <div class="wrapper style1">
+
+        <div class="container">
+            <div class="row 200%">
+                <div class="3u"><hr/></div>
+                <div class="6u">
+                    <form name="contactform" method="post" action="mailTo.php">
+                        <div>
+                            <div>
+                                <p valign="top">
+                                    <label for="first_name">Votre prénom *</label>
+                                </p>
+                                <p valign="top">
+                                    <input  type="text" name="first_name" maxlength="50" size="30" required>
+                                </p>
+                            </div>
+                            <div>
+                                <p valign="top"">
+                                <label for="last_name">Votre nom</label>
+                                </p>
+                                <p valign="top">
+                                    <input  type="text" name="last_name" maxlength="50" size="30" required>
+                                </p>
+                            </div>
+                            <div>
+                                <p valign="top">
+                                    <label for="email">Votre email *</label>
+                                </p>
+                                <p valign="top">
+                                    <input  type="text" name="email" maxlength="80" size="30" required>
+                                </p>
+                            </div>
+                            <div>
+                                <p valign="top">
+                                    <label for="telephone">Votre numéro de téléphone</label>
+                                </p>
+                                <p valign="top">
+                                    <input  type="text" name="telephone" maxlength="30" size="30" required>
+                                </p>
+                            </div>
+                            <div>
+                                <p valign="top">
+                                    <label for="comments">Votre message</label>
+                                </p>
+                                <p valign="top">
+                                    <textarea  name="comments" maxlength="1000" cols="25" rows="6" required></textarea>
+                                </p>
+                            </div>
+                            <div>
+                                <p colspan="2" style="text-align:center">
+                                    <input type="submit" value="Envoyer">
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="3u"><hr/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="12u">
+
+                <!-- Contact -->
+                <section class="contact">
+                    <header>
+                        <h3>Nisl turpis nascetur interdum?</h3>
+                    </header>
+                    <p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
+                    <ul class="icons">
+                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon fa-youtube-play"><span class="label">Youtube</span></a></li>
+                        <li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+                    </ul>
+                </section>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <ul class="menu">
+                        <li>&copy; NDAS Multi-services. All rights reserved.</li><li>Design: Moussa ADJI</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/bootstrap/js/bootstrap.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.onvisible.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
